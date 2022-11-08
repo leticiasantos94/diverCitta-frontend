@@ -10,6 +10,7 @@ import './App.css';
 
 function App() {
   return (
+
     <Router>
       <Navbar />
       <Routes>
@@ -20,13 +21,13 @@ function App() {
 
         <Route path="/login" element={<Login />} />
 
-        <Route path="/sobre-nos" element={<Sobre />}
+        <Route path="/sobre-nos" element={<Sobre />} />
 
       </Routes>
       <Footer />
-    </Router>
+    </Router>    
 
   );
 }
-
+          
 export default App;
